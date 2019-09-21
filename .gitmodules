@@ -1,0 +1,6 @@
+[submodule "wikidata"]
+	path = wikidata
+	url = https://github.com/AlgoWiki/AlgoWiki.git
+[submodule "gitit"]
+	path = gitit
+	url = https://github.com/AlgoWiki/gitit.git
