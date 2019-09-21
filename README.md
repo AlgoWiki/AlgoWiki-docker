@@ -17,7 +17,11 @@ Review the configuration in the `config` directory, and adjust to your liking.
 ## Running
 Run the following command to start AlgoWiki:
 ```
-sudo docker run --rm -v $(pwd)/config:/home/algowiki/config -v $(pwd)/wikidata:/home/algowiki/wikidata -p 8080 suprdewd/algowiki
+$ sudo docker run --rm \
+       -v $(pwd)/config:/home/algowiki/config \
+       -v $(pwd)/wikidata:/home/algowiki/wikidata \
+       -p 8080 \
+       suprdewd/algowiki
 ```
 
 Now you can navigate to [http://localhost:8080/](http://localhost:8080/) in your browser.
